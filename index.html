@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minecraft Farm Bots</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      background: #16a34a;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #15803d;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .price {
+      font-size: 1.5em;
+      color: #22c55e;
+    }
+
+    button {
+      background: #16a34a;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #22c55e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🌾 Minecraft Farm Bots</h1>
+  <p>Automate your farms like a pro</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Products</a>
+  <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+  <h2>Boost Your Minecraft Farming 🚀</h2>
+  <p>Get powerful bots that harvest, plant, and grind for you 24/7.</p>
+</section>
+
+<section class="products">
+  
+  <div class="card">
+    <h3>Basic Farm Bot</h3>
+    <p>Auto harvest & replant crops</p>
+    <p class="price">$5</p>
+    <button onclick="buy('Basic Farm Bot')">Buy Now</button>
+  </div>
+
+  <div class="card">
+    <h3>Advanced Farm Bot</h3>
+    <p>Supports multiple crops + storage</p>
+    <p class="price">$10</p>
+    <button onclick="buy('Advanced Farm Bot')">Buy Now</button>
+  </div>
+
+  <div class="card">
+    <h3>Ultimate AFK Bot</h3>
+    <p>Full automation + mob farming</p>
+    <p class="price">$20</p>
+    <button onclick="buy('Ultimate AFK Bot')">Buy Now</button>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Minecraft Farm Bots | Not affiliated with Mojang</p>
+</footer>
+
+<script>
+  function buy(product) {
+    alert("You selected: " + product + "\\nIntegrate payment system here.");
+  }
+</script>
+
+</body>
+</html>
